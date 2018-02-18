@@ -1,0 +1,24 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>Twitter information for everyone</title>
+    </head>
+    <body>
+    <form action="info_return" method="get">
+        Enter Twitter Account:<br>
+        <input type="text" name="account"><br>
+        What information about people you want to see(P.S. write it with separating by coma P.S.S. 'Name' we already include):<br>
+        id, screen_name, location, description, url, entities, protected,<br>
+        followers_count, friends_count, listed_count, created_at, favourites_count,<br>
+        utc_offset, time_zone, statuses_count, status, profile_background_color,<br>
+        profile_background_image_url, profile_background_image_url_https, notifications,<br>
+        muting, blocking, blocked_by, translator_type<br>
+        <br>
+        Example: location, description, status, listed_count<br>
+        <input type="text" name="info"><br>
+        <input type="submit" name="submit">
+    </form>
+    </body>
+</html>
